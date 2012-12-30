@@ -1,0 +1,225 @@
+﻿@charset "utf-8";
+/*
+Design by www.maak-mijn-website.nl
+http://www.maak-mijn-website.nl
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+{
+border: 0;
+margin: 0;
+}
+body {
+	background-color: #D6CFBC;
+
+}
+#main {
+	color:gray;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header_image {
+	background-image: url(images/header_bg.png);
+	height: 226px;
+	width: 261px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-position:top;
+}
+#content {
+	background-image: url(images/main_content.jpg);
+	width: 741px;
+	height: 781px;
+}
+
+#top_menu {
+	font-family: "trebuchet MS";
+	font-size: 20px;
+	font-weight: normal;
+	color: #ebead8;
+	background-image: url(images/top_menu.jpg);
+	height: 70px;
+	width: 704px;
+}
+#top_menu ul {
+	margin: 0;
+	list-style: none;
+	padding-left: 0px;
+}
+
+#top_menu li {
+	display: inline;
+}
+
+#top_menu a {
+	font-family: "trebuchet MS"
+	font-size: 20px;
+	font-weight:normal;
+	color: #ebead8;
+	text-decoration: none;
+	line-height:60px;
+	float: left;
+	height: 70px;
+	width: 176px;
+	padding-bottom:0px;
+	text-align: center;
+	padding-left: 0px;
+	background: url(images/top_menu_button.png);
+    font-family: "trebuchet MS", "font-size: 20px";
+}
+#top_menu a:hover {	
+	color: #a12e2e; 
+	height: 50px;
+	background: url(images/top_menu_button.png)); no-repeat; 
+	text-decoration: none;
+}
+#Company_name {
+	font-family: "trebuchet MS";
+	font-size: 35px;
+	font-weight: bold;
+	background-image: url(images/site_name.jpg);
+	height: 96px;
+	width: 311px;
+	vertical-align: top;
+	text-align: left;
+}
+#slogan {
+	font-family: "trebuchet MS";
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+	background-image: url(images/site_slogan.jpg);
+	height: 19px;
+	width: 276px;
+	border:0px;
+}
+#left_menu {
+	background-image: url(images/left_menu.jpg);
+	height: 782px;
+	width: 159px;
+}
+#left_menu ul {
+	margin: 0;
+	list-style: none;
+	padding-left: 0px;
+}
+
+#left_menu li {
+	display: inline;
+}
+#left_menu a {
+	font-family: "trebuchet MS";
+	font-size: 18px;
+	font-weight:normal;
+	color: #EADDCC;
+	text-decoration: none;
+	float: left;
+	height: 32px;
+	width: 134px;
+	text-align: center;
+	line-height: 25px;
+	padding-left: 0px;
+	background: url(images/button.png); no-repeat;
+}
+#left_menu a:hover {	
+	color: #ffffff;
+	width: 144px;
+	height: 32px;
+	background: url(images/button_hover.png);
+}
+#logo {
+	font-family: "trebuchet MS";
+	font-size: 30px;
+	font-style: normal;
+	color: #dac3a5;
+	padding-top:px;
+	background-image: url(images/logo.jpg);
+	background-repeat: no-repeat;
+	height: 59px;
+	width: 176px;
+	text-align: center;
+	line-height: 55px;
+}
+#logo a {
+	font-family: "trebuchet MS";
+	font-size: 30px;
+	font-style: normal;
+	color: #dac3a5;
+	text-align: center;
+	line-height: 55px;
+	border:0px;
+	text-decoration: none;
+}
+a{
+	color: #a12e2e;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #a12e2e;
+	text-decoration:underline;
+}
+.style1 {color: #EBEAD8}
+.style4 {
+	font-family: "trebuchet MS";
+	font-weight: bold;
+	font-size: 35px;
+}
+.style6 {color: #8F7656}
+.style7 {color: #A12F2F}
+.style10 {font-family: "trebuchet MS"; font-size: 14px;}
+.style11 {
+	color: #684E2D;
+	font-family: "trebuchet MS";
+	font-weight: bold;
+	text-align: center;
+}
+.style12 {
+	color: #684E2D;
+	font-family: "trebuchet MS";
+	font-size: 12px;
+	padding-left: 20px;
+}
+.style13 {
+	color: #a12e2e;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: "trebuchet MS";
+	padding-top: 20px;
+}
+.style14 {
+	color: #7d705e;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "myriad web Pro";
+}
+.style15 a{
+	font-size: 4px;
+	color: #EBEAD8;
+	text-decoration: none;
+}
+.partners {
+	font-family:"Times New Roman", Times, serif;
+	font-size:16px;
+	color: #886033;
+	padding-bottom:10px;
+	padding-left:15px;
+	background-image: url(images/arrow.png);
+	background-position:left center;
+	height: 10px;
+	width: 780px;
+	background-repeat: no-repeat;
+}#footer {
+	font-family: "trebuchet MS";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	text-align:center;
+	text-decoration:none;
+	color: #886033;
+	background-image: url(images/footer.jpg);
+	height: 86px;
+	width: 900px;
+}
