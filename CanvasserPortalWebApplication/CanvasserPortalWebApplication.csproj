@@ -228,6 +228,8 @@
     <Content Include="Images\top_menu.jpg" />
     <Content Include="Images\top_menu_button.png" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\CanvasserPortal - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\CanvasserPortal - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\therooferdirect - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\therooferdirect - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
@@ -309,6 +311,7 @@
     <Compile Include="Account\RegisterExternalLogin.aspx.designer.cs">
       <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Classes\SimpleHash.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
